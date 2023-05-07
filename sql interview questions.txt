@@ -1,0 +1,82 @@
+https://techtfq.com/blog/top-20-sql-interview-questions
+
+
+Question #1: What are DDL and DML languages? Give example. (beginner and intermediate)
+
+
+Question #2: What is the difference between DELETE and TRUNCATE statement?   (beginner and intermediate)
+
+
+Question #3: Why do we use CASE Statement in SQL? Give example   (beginner and intermediate)
+
+
+Question #4: What is the difference between LEFT, RIGHT, FULL outer join and INNER join?    (beginner, intermediate and senior)
+
+
+Question #5: What is the difference between DISTINCT and GROUP BY?     (beginner and intermediate)
+
+
+Question #6: What are the rules to follow when using UNION operator?     (beginner and intermediate)
+
+
+Question #7: What are aggregate functions? Name and explain different types of aggregate functions in SQL?    (beginner and intermediate)
+
+
+Question #8 What is the difference between RANK, DENSE_RANK and ROW_NUMBER window function?   (intermediate and senior)
+
+
+Question #9:  Can we use aggregate function as window function? If yes then how do we do it?    (intermediate and senior)
+
+
+Question #10: How can you convert a text into date format? Consider the given text as “31-01-2021“.    (beginner intermediate and senior)
+
+
+Question #11: Imagine there is a FULL_NAME column in a table which has values like “Elon Musk“, “Bill Gates“, “Jeff Bezos“ etc. So each full name has a first name, a space and a last name. Which functions would you use to fetch only the first name from this FULL_NAME column? Give example. 
+(beginner and intermediate)
+
+
+Question #12: What are subqueries? Where can we use them? (beginner and intermediate)
+
+
+Question #13: Is it good to have the same subquery multiple times in your query? If no then how can you solve this?   (intermediate and senior)
+
+
+
+Question #14: Difference betwen WHERE and HAVING clause  (beginner and intermediate)
+
+
+Question #15: What are indexes? Why do we use it?  (intermediate and senior)
+
+
+Question #16: What are steps you would take to tune a SQL query?  (senior level role)
+
+
+Question #17: What is the difference between primary key, unique key and foreign key   ( beginner and intermediate)
+
+
+Question #18: What is the difference between a view and a synonym?   (beginner and intermediate)
+
+
+Question #19: When can a function NOT be called from SELECT query?   (beginner and intermediate)
+
+Question #20:  What is a trigger?   (intermediate and senior)
+
+
+Question #21:  What is the difference between a views and a materialized views?    (intermediate and senior level role)
+
+
+Question #22:  What is MERGE statement?  (beginner, intermediate and senior)
+
+
+
+Question #23:  Which function can be used to fetch yesterdays date? Provide example.   (beginner and intermediate)
+
+
+Question #24:  What is the difference between a function and a procedure?  (beginner and intermediate)
+
+
+
+Question #25:  What is PRAGMA AUTONOMOUS TRANSACTION?    (senior level role.)
+
+
+
