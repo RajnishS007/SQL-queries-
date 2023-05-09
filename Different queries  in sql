@@ -1,0 +1,9 @@
+
+
+-- Sub query
+select avg(age) from customers;
+SELECT first_name, age
+FROM Customers
+Where age > (select avg(age) from customers);
+
+
