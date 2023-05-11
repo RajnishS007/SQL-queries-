@@ -7,3 +7,6 @@ FROM Customers
 Where age > (select avg(age) from customers);
 
 
+
+ghbvssauv kji
+
