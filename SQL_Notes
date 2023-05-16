@@ -1,4 +1,11 @@
 CTE - Common table expression 
+With my_cte as (
+select a, b, c
+ from table )
+ select a, c
+ from 
+
+
 Case statement 
 Case expression statement
 Window Function - Aggregate , Ranking, Value/Analytic
