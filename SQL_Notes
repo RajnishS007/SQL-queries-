@@ -8,7 +8,41 @@ select a, b, c
 
 Case statement 
 Case expression statement
-Window Function - Aggregate , Ranking, Value/Analytic
+-- Window Function - Aggregate , Ranking, Value/Analytic
+MAX(), MIN(), AVG(), SUM(), and COUNT()
+syntexs - 
+AVG(salary) OVER (PARTITION BY department),
+
+Select department_name,  MAX(salary) AS max_salary from employee  group by department_name
+
+ MAX(salary) OVER (PARTITION BY department_name) AS max_salary
+ 
+
+
+
+
+-- Rank Function
+(SELECT
+    employee_name,
+    department_name,
+    salary,
+    RANK() OVER (PARTITION BY department ORDER BY salary) position
+FROM employee )
+
+ROW_NUMBER(),
+RANK(), - (e.g. 1, 2, 3, 3, 5...).   - 
+and DENSE_RANK() - (e.g. 1, 2, 3, 3, 4, 5...).
+
+LEAD(), LAG(), FIRST_VALUE(), LAST_VALUE(), NTH_VALUE()
+
+LEAD(Value) OVER (PARTITION BY Symbol ORDER BY Timestamp) AS “% variation”
+   LAG(salary) OVER (ORDER BY salary) prev_salary
+
+
+
+-- UNBOUNDED PRECEDING
+UNBOUNDED PRECEDING, n PRECEDING, CURRENT ROW, n FOLLOWING, UNBOUNDED FOLLOWING
+
 Sub Query
 Union All
 Union
