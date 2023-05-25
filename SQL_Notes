@@ -2,8 +2,24 @@ CTE - Common table expression
 With my_cte as (
 select a, b, c
  from table )
- select a, c
- from 
+ select a, c from my_cte;
+ 
+ EX- 
+ with cte as(
+  select *, avg(amount) over (order by o.item) as "avg_amount",
+  count(item) over(order by o.item) as "count",
+  max(amount) over (order by o.item) as "max_amount",
+  lead(amount) over (order by o.item) as "lead_amount"
+  from orders as o
+  inner join customers as c
+  on c.customer_id = o.order_id	),
+  cte1 as (
+select* from orders as o
+    inner join Shippings as s
+    on o.order_id= s.shipping_id
+  )
+  select distinct cte.first_name, cte.last_name,cte.country, cte.item, cte.amount, cte1.status from cte, cte1;
+  
 
 
 Case statement 
